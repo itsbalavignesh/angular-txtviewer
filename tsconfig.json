@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "module": "commonjs",
-    "target": "ES5",
+    "target": "ES6",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
     "lib": [
       "dom",
-      "es2015.collection",
-      "es2015.promise",
-      "es5"
+      "es2016",
+      "es6"
     ],
     "moduleResolution": "node"
   },
@@ -21,6 +20,8 @@
     "custom.d.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
   ]
 }
