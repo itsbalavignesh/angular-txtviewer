@@ -16,8 +16,8 @@
     "moduleResolution": "node"
   },
   "files": [
-    "Angular2-csv.ts",
-    "Angular2-csv.spec.ts",
+    "Angular2-txt.ts",
+    "Angular2-txt.spec.ts",
     "custom.d.ts"
   ],
   "exclude": [
