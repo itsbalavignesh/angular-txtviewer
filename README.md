@@ -1,4 +1,4 @@
-# Angular2-csv | Export to TXT  in Angular2
+# Angular2-txt | Export to TXT  in Angular2
 
 > Helper library for create TXT file in Angular2
 > 
