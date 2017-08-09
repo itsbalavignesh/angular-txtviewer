@@ -1,15 +1,15 @@
 {
   "name": "angular2-txt",
-  "version": "0.2.5",
+  "version": "0.0.1",
   "description": "Helper library for create TXT file in Angular 2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/javiertelioz/angular2-txt.git"
+    "url": "https://github.com/lcborn4/angular2-txt.git"
   },
   "scripts": {
     "dev": "tsc --watch",
     "test": "karma start",
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "keywords": [
     "angular2",
@@ -21,15 +21,15 @@
     "libreoffice",
     "openoffice"
   ],
-  "author": "javiertelioz",
-  "email": "jtelio118@gmail.com",
+  "author": "lcborn4",
+  "email": "lcborn4@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/javiertelioz/angular2-txt/issues"
+    "url": "https://github.com/lcborn4/angular2-txt/issues"
   },
   "main": "Angular2-txt.js",
   "typings": "./Angular2-txt.d.ts",
-  "homepage": "https://github.com/javiertelioz/angular2-txt#readme",
+  "homepage": "https://github.com/lcborn4/angular2-txt#readme",
   "devDependencies": {
     "@angular/common": "^2.4.2||^4.0.0",
     "@angular/core": "^2.4.2||^4.0.0",
