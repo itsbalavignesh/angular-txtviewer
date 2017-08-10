@@ -63,7 +63,6 @@ new Angular2Txt(data, 'My Report');
     fieldSeparator: ',',
     quoteStrings: '"',
     decimalseparator: '.',
-    showLabels: true, 
     showTitle: true,
     useBom: true
   };
