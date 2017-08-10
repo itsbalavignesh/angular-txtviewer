@@ -70,6 +70,27 @@ new Angular2Txt(data, 'My Report');
   Angular2Txt(data, filename, options);
 
 ```
+
+**Example 2**
+
+To add the Headers
+
+---
+
+```javascript
+  var options = { 
+    headers: Object.keys(this.data[0]),
+    fieldSeparator: ',',
+    quoteStrings: '"',
+    decimalseparator: '.',
+    showTitle: true,
+    useBom: true
+  };
+
+  Angular2Txt(data, filename, options);
+
+```
+
 #Credits
 ---
 
